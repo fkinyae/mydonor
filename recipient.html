@@ -5,13 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/recipient.css" type="text/js" media="all">
+    <link rel="stylesheet" href="css/recipient.css" type="text/css" media="all">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/recipient.js"></script>
     <title>Recipient</title>
 </head>
 <body>
-    <h3><strong>Recipient.</strong></h3>
-    
+    <h2><strong>Recipient.</strong></h2>
+    <small id="emailHelp" class="form-text text-muted">Please, Go through the recipients policy statement before filling the form.</small>
+
+    <form id="recipient" onsubmit="receive();">
+        <div class="row">
+          <div class="col-md-4">
+              <label for="firstName">Enter First Name:</label>
+            <input type="text" id="firstname" class="form-control" placeholder="First name">
+          </div>
+          <div class="col-md-4">
+            <label for="secondName">Enter Last Name:</label>
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your contact details.</small>
+
+        <div class="row">
+            <div class="col-md-4">
+                <label for="phoneNumber">Enter Phone Number:</label>
+              <input type="number" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="col-md-4">
+              <label for="email">Enter Email:</label>
+              <input type="email" class="form-control" placeholder="Enter Your email...">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label for="textarea">Health Information:</label>
+                <textarea id="health" class="form-control is-invalid" rows="5" placeholder="Brief Description about Your Health,stating the kind of donation that you need..." required></textarea>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label for="textarea">Justification:</label>
+                <textarea id="justify" class="form-control is-invalid" rows="5" placeholder="Brief Justification why you need the donation..." required></textarea>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="signature">Signature:</label>
+                <small id="emailHelp" class="form-text text-muted">Agree to recipient policy statement.</small>
+                <small id="emailHelp" class="form-text text-muted">Information provided is true.</small>
+                <input type="text" class="form-control" row="2" placeholder="Sign by writing your Fullname.">
+              </div>
+        </div>
+        <button type="submit" id="btn-submit" class="btn btn-primary">Send Request</button>
+      </form>
+        
+   
 </body>
 </html>
