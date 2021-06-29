@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+body {
+    background-color: aquamarine;
+    text-align: center;
+    color: firebrick;
+    font-family: 'Benne', serif;
+}
+#recipient {
+    margin-left: 25%;
+    text-align: justify;
+    color: firebrick;
+    font-family: 'Benne', serif;
+    font-size: 18px;
+    
+}
+button#btn-submit {
+    background-color: firebrick;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+
+}
