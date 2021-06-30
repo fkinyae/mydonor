@@ -17,7 +17,7 @@
 
 /* coca-cola */
 
-.felx-container-1{
+.flex-container-1{
     display: flex;
     margin: 40px;
     height: 50vh;
@@ -33,3 +33,35 @@
 };
 
 /* guiness */
+.flex-container-2{
+    display: flex;
+    margin: 40px;
+    height: 50vh;
+};
+.guiness{
+    float: right;
+    margin: 40px;           
+};
+.guiness-1{
+    float: left;
+    margin: 40px;
+    background-image: url("images/guiness.png");
+};
+
+/* safaricom */
+.flex-container-3{
+    display: flex;
+    margin: 40px;
+    height: 50vh;
+};
+.safaricom{
+    float: right;
+    margin: 40px;  
+};
+.safaricom-1{
+    float: left;
+    margin: 40px;
+    background-image: url("images/safaricom.png");
+};
+
+
