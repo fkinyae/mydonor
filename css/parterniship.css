@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    margin: 40px    
+};
+.ford-1{
+    float: left;
+    margin: 40px;
+    background-image: url("images/ford.png");
+    height: 50vh;
+};
+.ford{
+    float: right;
+    margin: 40px;
+    height: 50vh;
+};
