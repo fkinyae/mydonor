@@ -24,8 +24,8 @@
 
         <div class="container-fluid">
             <div class="row round">
-              <h3 class=" d-head text-center ">Donate Now </h3>
-              <h3 class=" d-head text-center ">What is your health status? </h3>
+              <h3 class=" d-head text-center "> <strong>Donate Now</strong>  </h3>
+              <h3 class=" d-head text-center "><strong> What is your health status?</strong> </h3>
                 <div class="col-md-4 gy-2 round1">
                     <label><input type="radio" name="colorCheckbox" value="pre-exixsting" > Pre-existing Condition</label>
                 </div>
@@ -40,17 +40,139 @@
     </div>
     <!-- Show only for patients with pre-existing conditions -->
     <div id=" preexisting" class="unsuccesful pre-exixsting">
-        <h1>gaiGYG</h1>
+      <div class="container">
+        <div class="pre text-center">
+          <h3 class="text-red h3"> Sorry You Cannot Donate with a <Strong>pre-existing condition </Strong> </h3>
+          <p class="h4">
+              There are certain conditions that prevent a person from donating blood temporarily or permanently. <br> Among the temporary conditions are:  <br>                          
+           </p>
+           <p class="h4">
+              Pregnancy <br>                       
+              Acute fever <br>
+              Recent alcoholic intake <br>
+              Ear or body piercing and tattooing <br>
+              Surgery <br>
+              Persons with the following  conditions are not allowed to donate blood anyime: <br>
+           </p>
+            <p class="h4">
+              Cancer   <br>                    
+              Cardiac disease  <br>                     
+              Sever lung disease     <br>                   
+              Hepatitis B and C       <br>                 
+              HIV infection, AIDS or Sexually Transmitted Diseases (STD)<br> 
+              High risk occupation (e.g. prostitution) <br> 
+              Unexplained weight loss of more than 5 kg over 6 months<br> 
+              Chronic alcoholism <br>                       
+          </p>
+
+            </p>
+            
+
+        </div>
+      </div>
           
     </div>
     <!-- Show only for patients on-medication conditions -->
 
     <div class="unsuccesful on-medication">
-      
+      <div class="container">
+        <div class="pre text-center">
+          <h3 class="text-red h3"> Sorry You Cannot Donate while <Strong>on Medication </Strong></h3>
+          <p class="h4">
+              There are certain conditions that prevent a person from donating blood temporarily or permanently. <br> Among the temporary conditions are:  <br>                          
+           </p>
+           <p class="h4">
+              Pregnancy <br>                       
+              Acute fever <br>
+              Recent alcoholic intake <br>
+              Ear or body piercing and tattooing <br>
+              Surgery <br>
+           </p>
+            <p class="h4">
+              General opinion is that, in most cases, plasma concentrations of drugs in donated blood are not sufficiently <br>
+               high to cause harm to recipients. Normally of greater concern is any underlying illness in patients and, of course, <br>
+                medicines are a useful indication of this. Illness can make giving blood a risk to the donor as well as posing <br>
+                 a risk for recipients.                      
+          </p>                     
+          </p>
+
+            </p>
+            
+
+        </div>
+      </div>
+          
     </div> 
    <!-- Show only for patients who can donate conditions -->
 
     <div class="unsuccesful healthy">
+      <div class="container">
+        <h2 class="dn-form"><strong>Donation Form</strong></h2>
+        <form action="" class="donors">
+          <div class="row">
+            <div class=" form-group col-md-4">
+              <label for="formGroupExampleInput">First Name:</label>
+              <input type="text" class="form-control" id="fname" placeholder="First Name">
+            </div>
+            <div class=" form-group col-md-4">
+              <label for="formGroupExampleInput">Last Name:</label>
+              <input type="text" class="form-control" id="fname" placeholder="First Name">
+              <small id="emailHelp" class="form-text text-muted">Remember to type in capital letters.</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="exampleFormControlSelect1 ">Age:</label>
+              <input type="number" name="age" value="1" id="age">
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="exampleFormControlSelect1">Pick Toppings</label>
+              <select class="form-control" id="Toppings">
+                <option >Select Gender</option>
+                <option value="broccolli">Male</option>
+                <option value="sausage">Female</option>
+              </select>
+
+            </div>
+            <div class=" form-group col-md-4">
+              <label for="exampleFormControlSelect1">Donation</label>
+              <select class="form-control" id="Toppings">
+                <option >Select Type of Donation</option>
+                <option value="broccolli">Blood</option>
+                <option value="sausage">Organ</option>
+            </select>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="exampleFormControlSelect1">Blood Type</label>
+              <select class="form-control" id="Toppings">
+                <option >Select Blood type</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O">O</option>
+              </select>
+            </div>
+            <div class=" form-group col-md-4">
+              
+            </div>
+            <div class="row">
+              <button  id="submitform" type="button" class="btn btn-light col-md-3">Donate</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
       
     </div> 
     
