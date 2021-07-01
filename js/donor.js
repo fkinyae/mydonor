@@ -4,11 +4,10 @@ $(document).ready(function() {
     var targetBox = $("." + inputValue);
     $(".unsuccesful").not(targetBox).hide();
     $(targetBox).show();
+    
   });
-
-      
-
-
+  
+  
     });
 
 
