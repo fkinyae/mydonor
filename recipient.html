@@ -14,15 +14,15 @@
     <h2><strong>Recipient.</strong></h2>
     <small id="emailHelp" class="form-text text-muted">Please, Go through the recipients policy statement before filling the form.</small>
 
-    <form id="recipient" onsubmit="receive();">
+    <form id="recipient">
         <div class="row">
           <div class="col-md-4">
               <label for="firstName">Enter First Name:</label>
-            <input type="text" id="firstname" class="form-control" placeholder="First name">
+            <input type="text" id="firstname" class="form-control" placeholder="First name" required>
           </div>
           <div class="col-md-4">
             <label for="secondName">Enter Last Name:</label>
-            <input type="text" class="form-control" placeholder="Last name">
+            <input type="text" class="form-control" placeholder="Last name" required>
           </div>
         </div>
         <small id="emailHelp" class="form-text text-muted">We'll never share your contact details.</small>
@@ -38,23 +38,55 @@
             </div>
         </div>
         <div class="row">
+          <div class="tdona">
+            <h4><strong>Type of Donation:</strong></h4>
+          </div>
+          <div class="col-md-3">
+            <div class="form-check">
+              <h4> <strong> Blood</strong></h4>
+              <input class="don" type="radio" name="flexRadioDefault" id="don">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-check">
+              <h4><strong>Body Organ</strong></h4>
+              <input class="don2" type="radio" name="flexRadioDefault" id="don2">     
+            </div>
+          </div> 
+          <div class="col-md-3">
+            <div class="form-check">
+              <h4><strong>Both</strong></h4>
+              <input class="don3" type="radio" name="flexRadioDefault" id="don3">     
+            </div>
+
+          </div>  
+        </div>
+        <div class="row">
             <div class="col-md-8">
                 <label for="textarea">Health Information:</label>
+                <small id="emailHelp" class="form-text text-muted">Please,also specify the exact donation here.</small>
                 <textarea id="health" class="form-control is-invalid" rows="5" placeholder="Brief Description about Your Health,stating the kind of donation that you need..." required></textarea>
         </div>
         </div>
+        
         <div class="row">
             <div class="col-md-8">
                 <label for="textarea">Justification:</label>
-                <textarea id="justify" class="form-control is-invalid" rows="5" placeholder="Brief Justification why you need the donation..." required></textarea>
+                <textarea id="justif" class="form-control is-invalid" rows="5" placeholder="Brief Justification why you need the donation..." required></textarea>
         </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+          <div class="col-md-3">
+            <h4><strong>Upload your ID:</strong></h4>
+            <input id="input-b2" name="input-b2" type="file" class="file" data-show-preview="false">
+
+          </div>
+            <div class="col-md-5">
                 <label for="signature">Signature:</label>
+                
+                <input type="text" class="form-control" row="2" placeholder="Sign by writing your Fullname." required>
                 <small id="emailHelp" class="form-text text-muted">Agree to recipient policy statement.</small>
-                <small id="emailHelp" class="form-text text-muted">Information provided is true.</small>
-                <input type="text" class="form-control" row="2" placeholder="Sign by writing your Fullname.">
+                <small id="emailHelp" class="form-text text-muted">All Information provided is true.</small>
               </div>
         </div>
         <button type="submit" id="btn-submit" class="btn btn-primary">Send Request</button>
