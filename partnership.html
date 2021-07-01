@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/parterniship.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/patnership.js"></script>
+    <link rel="stylesheet" href="">
+    <title>partnership</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Patnership</h1>
+            <div class="col-md-4">
+                <h3>Individual</h3>
+                <p>As an individual you can partner with our organisation through offerring any of you donations. We are well supported by various organisation in this events. By simple registration on our platform you get to apply for transplants and blood donations in any of our branches.You can also visit some of our branches and register yourself for donation</p>
+                <h3>Corporate company</h3>
+                <p>There is also an opportunity companies as one can offer to donate organs. One can register themselves as an organisation to donate blood and organs as a unit oneline. The CEO or the general manager is expected to fill the application form oneline and submit it. Also mydonor foundation provides a opportunity to host a blood drive inorder to donate certain body organs.</p>
+                <h3>Hospital</h3>
+                <p>our platform offers hospitals a chance to register on our site and advertise organ donations under the foundation contracts so as to help reach out to our goal.</p>
+
+            </div>
+            <span class="col-md-2"></span>
+            <!-- <div id="part"> -->
+                <div class="col-md-6">
+                    <div class="row  other">
+                        <button id="patner" type="submit" class="btn btn-primary  col-md-4" >Partner</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button id="individual" type="submit" class="btn btn-primary  col-md-2" > Individual</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button id="company" type="submit" class="btn btn-primary  col-md-2">Company</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button id="hospital" type="submit" class="btn btn-primary  col-md-2">Hospital</button>
+                        </div>
+                        <form id="individual_form" action="https://formspree.io/f/xrgrladl" method="POST">
+                            <div class="form-group form-inline">
+                                <label for="name">NAME</label><br>
+                                <input id="name"  class="form-control" type="text">
+                            </div>
+                            <div class="form-group-2">
+                                <label for="location form-inline" >  LOCATION </label><br>
+                                <input id="location" class="form-control" type="text">
+                            </div>
+                            <div class="form-group form-inline">
+                                <label for="email">EMAIL</label><br>
+                                <input id="email" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">PHONE NUMBER</label><br>
+                                <input id="phone-number" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">COMMENT</label><br>
+                                <textarea name="comment"  class="form-control" id="comment" cols="30" rows="10"></textarea>
+                            </div>
+                            <button id="btn-submit" type="submit" class="btn btn-primary  col-md-2" onclick="reply()"> SUBMIT</button>
+                        </form>
+                        
+                        
+
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+</body>
+                    
+</html>
