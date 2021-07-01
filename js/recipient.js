@@ -8,6 +8,11 @@ $().ready(function(){
             $("#myBtn").click(function(){
                     $("#myModal").modal();
             });
+
+            $('#btn-msg').click(function(){
+                alert("Your Message has been send to your donor!.")
+
+            });
      
  
     $('#btn-submit').click(function(event){
