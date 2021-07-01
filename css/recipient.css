@@ -18,6 +18,32 @@ body {
     padding-top: 10px;
 }
 
+#blood_donor {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#blood_donor td {
+    text-align: start;
+    color: black;
+}
+
+#regret {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+
+}
+ .modal-header, .close {
+    background-color: aqua;
+    color: firebrick !important;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -35px;
+  } 
+
 button#btn-submit {
     background-color: firebrick;
     margin-top: 2%;
