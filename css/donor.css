@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+body, html {
+    background-color: aqua;
+    height: 100%;
+}
+.round{
+   
+    justify-content: center;
+    margin-top: 10%;
+    column-gap: 2.3rem;
+}
+.round1{
+    background-color: rgb(241, 58, 12);
+    color: black;
+    font-weight: 300;
+    font-family: 'Benne', serif;    
+    font-size: 1.4rem;
+    width: 200px;
+    height: 60px;
+    border-radius:15px;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 60, 122, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    
+
+}
+.unsuccesful{
+    display: none;
+}
