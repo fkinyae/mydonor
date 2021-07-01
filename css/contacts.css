@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+body{
+    background: aquamarine;
+    font-family: 'Benne', serif;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: firebrick;
+}
+h4{
+    color: firebrick;
+}
+#name{
+    background: transparent;
+}
+#email{
+    background: transparent;
+}
+#message{
+    background: transparent;
+}  
+.submit{
+    margin-right: 4em;
+    margin-left: 2em;
+    /* background: transparent; */
+    text-align: center;
+}   
+#feedback {
+    padding-right: 3%;
+    background: transparent;
+}
+button#btn-submit {
+    margin-left: 25%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+}
+input[type="text"] input[type=email] {
+    margin: 8px 0;
+}
+#details{
+    padding-left: 3em;
+}
+.ciata{
+    text-align: center;
+}
