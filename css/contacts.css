@@ -41,3 +41,9 @@ button#btn-submit {
 input[type="text"] input[type=email] {
     margin: 8px 0;
 }
+#details{
+    padding-left: 3em;
+}
+.ciata{
+    text-align: center;
+}
