@@ -60,5 +60,35 @@ body, html {
     padding: 0;
   }
   .d-head{
-      font-size: "Benne" ,serif;
+      font-family: "Benne" ,serif;
+  }
+  .pre{
+      margin-top: 6%;
+      padding-top: 3%;
+      background-color: red;
+
+  }
+ .h3,.h4{
+    font-family: "Benne" ,serif;
+
+  }
+  .donors{
+      margin-left: 25%;
+      text-align: justify;
+      font-family: "Benne" ,serif;
+      font-size: 25px ;
+      margin-top: 3%;
+      color: firebrick;
+  }
+  .dn-form{
+    font-family: "Benne" ,serif;
+    margin-top: 5%;
+    text-align: center;
+    color: firebrick;
+
+  }
+  #submitform{
+    justify-content: center;
+    width: 100px;
+    margin-left: 40%;
   }
