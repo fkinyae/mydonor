@@ -16,12 +16,7 @@ $(document).ready(function() {
 
 
 
- /*  $('input[name="pre-exist"]').change(function() {
-    if($(this).is(':checked') && $(this).val() == '0') {
-         $('#modal1').modal('show');
-    } */
- /* }); */
-
+ 
 
 
 
