@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/donor.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/donor.js"></script>
+    <title> Donor page</title>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row round">
+                <div class="col-md-4 gy-2 round1">
+                    <label><input type="radio" name="colorCheckbox" value="pre-exixsting" > Pre-existing Condition</label>
+                </div>
+                <div class="col-md-4 gy-2 round1">
+                    <label><input type="radio" name="colorCheckbox" value="on-medication" > Currently on medication</label>
+                </div>
+                <div class="col-md-4 gy-2 round1">
+                    <label><input type="radio" name="colorCheckbox" value="healthy" > None of the Above</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id=" preexisting" class="unsuccesful pre-exixsting">
+        <h1>Ooops!</h1>
+          
+    </div>
+    <div class="unsuccesful on-medication">
+      <h1>Waaoh</h1>
+    </div> 
+    <div class="unsuccesful healthy">
+      <h1>Donate</h1>
+    </div> 
+    
+</body>
+</html>
