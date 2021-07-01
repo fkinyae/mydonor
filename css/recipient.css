@@ -18,19 +18,19 @@ body {
     padding-top: 10px;
 }
 
-#blood_donor {
+#blood_donor, #blood_donor2, #blood_donor3 {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 
 }
 
-#blood_donor td {
+#blood_donor td, #blood_donor2 td, #blood_donor3 td {
     text-align: start;
     color: black;
 }
 
-#regret {
+#regret_msg {
     color: black;
     text-align: center;
     font-size: 15px;
@@ -58,6 +58,7 @@ button#btn-submit {
     margin-bottom: 5%;
 
 }
+
 button#btn-msg {
     background-color: firebrick;
     margin-top: 2%;
