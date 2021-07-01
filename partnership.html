@@ -1,111 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/parterniship.css">
-
-    <title>PARTNERSHIPS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/parterniship.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/patnership.js"></script>
+    <link rel="stylesheet" href="">
+    <title>partnership</title>
 </head>
-
 <body>
-    <h1> PARTNERSHIPS</h1>
-    <div class="primary-container">
-        <div class="flex-container">
-            <div class="ford-1">
+    <div class="container">
+        <div class="row">
+            <h1>Patnership</h1>
+            <div class="col-md-4">
+                <h3>Individual</h3>
+                <p>As an individual you can partner with our organisation through offerring any of you donations. We are well supported by various organisation in this events. By simple registration on our platform you get to apply for transplants and blood donations in any of our branches.You can also visit some of our branches and register yourself for donation</p>
+                <h3>Corporate company</h3>
+                <p>There is also an opportunity companies as one can offer to donate organs. One can register themselves as an organisation to donate blood and organs as a unit oneline. The CEO or the general manager is expected to fill the application form oneline and submit it. Also mydonor foundation provides a opportunity to host a blood drive inorder to donate certain body organs.</p>
+                <h3>Hospital</h3>
+                <p>our platform offers hospitals a chance to register on our site and advertise organ donations under the foundation contracts so as to help reach out to our goal.</p>
 
             </div>
-            <div class="ford">
-                <p>
-                    <h1>The Challenge</h1><br>
-                    <h3>Expand an existing grantmaking program internationally</h3><br><br>
+            <span class="col-md-2"></span>
+            <!-- <div id="part"> -->
+                <div class="col-md-6">
+                    <div class="row  other">
+                        <button id="patner" type="submit" class="btn btn-primary  col-md-4" >Partner</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button id="individual" type="submit" class="btn btn-primary  col-md-2" > Individual</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button id="company" type="submit" class="btn btn-primary  col-md-2">Company</button>
+                        </div>
+                        <div class="col-md-4">
+                            <button id="hospital" type="submit" class="btn btn-primary  col-md-2">Hospital</button>
+                        </div>
+                        <form id="individual_form" action="https://formspree.io/f/xrgrladl" method="POST">
+                            <div class="form-group form-inline">
+                                <label for="name">NAME</label><br>
+                                <input id="name"  class="form-control" type="text">
+                            </div>
+                            <div class="form-group-2">
+                                <label for="location form-inline" >  LOCATION </label><br>
+                                <input id="location" class="form-control" type="text">
+                            </div>
+                            <div class="form-group form-inline">
+                                <label for="email">EMAIL</label><br>
+                                <input id="email" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">PHONE NUMBER</label><br>
+                                <input id="phone-number" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">COMMENT</label><br>
+                                <textarea name="comment"  class="form-control" id="comment" cols="30" rows="10"></textarea>
+                            </div>
+                            <button id="btn-submit" type="submit" class="btn btn-primary  col-md-2" onclick="reply()"> SUBMIT</button>
+                        </form>
+                        
+                        
 
-                    Ford Motor Company is a global automotive industry leader with facilities across six continents. In
-                    2014, Ford was recognized as one of the world's most ethical companies by Ethisphere for the fifth
-                    year in a row. Ford has also been named as one of Corporate Social Responsibility magazine's 100
-                    Best Corporate Citizens in the U.S.<br><br>
-
-                    As part of its corporate social responsibility initiatives, the Ford Motor Company and Ford Fund
-                    provide more than $37M annually in grants to nonprofit organizations. GlobalGiving's partnership
-                    with Ford began in 2007 with its Brazil program, for which GlobalGiving identified and made grants
-                    to local partners. By 2012, the company was looking to expand its giving programs, as it operates in
-                    77 locations worldwide.Ford needed a grantmaking program that could: <br>
-                    <ul>
-                        <li><strong>Increase</strong> Ford's international social impact;</li>
-                        <li><strong>Identify</strong> potential grantees abroad;</li>
-                        <li><strong>Ensure trustworthiness</strong> of local grantee organizations;</li>
-                        <li><strong>Facilitate communication</strong> with grantees; and</li>
-                        <li><strong>Quantify</strong> the impacts of giving.</li>
-                    </ul><br>
-                    In corporation with blood donor FORD is supporting donations everywhere through blood donor
-                    branches. Through $500m funded program FORD is able to sponsor some of My Donor's project to
-                    completions. Through these partnership My Donor has been able to acquire assets used in Donation of
-                    body organs.<br>
-                </p>
-            </div>
+                    </div>
+                    
+                </div>
         </div>
-
-        <div class="flex-container-1">
-            <div class="cocacola-1">
-
-            </div>
-            <div class="cocacola">
-                <p>
-                    The Coca-Cola Company is committed to giving back 1% of its prior year’s operating income annually.
-                    In 2020, Coca-Cola contributed more than $186 million to mydonor foundation – more than any previous
-                    year to directly benefit
-                    some 432 of our branches across 154 countries and territories. Contributions include $139 million
-                    from
-                    The Coca-Cola Foundation and $47 million from The Coca-Cola Company.<br><br>
-                    The company is also dedicated to supporting the donations of organs everywhere.
-                </p>
-            </div>
-        </div>
-        <div class="flex-container-2">
-            <div class="guiness">
-                Donations made by Guiness ltd in the Baltimore agreement include $500m deal to mydonor foundation and
-                $100m deal to support buying of heart and surgery machines used in donating blood. The CEO of Guiness
-                organised a board meeting addressing the point- charity and save lives-made a declaration that the
-                company will be supporting the foundation by also catering for employee salary reducing costs on the
-                company.
-            </div>
-            <div class="guiness-1">
-
-            </div>
-        </div>
-        <div class="flex-container-3">
-            <div class="safaricom">
-                The company invests some of its income on mydonor foundation's independent charitable trust established
-                to allocate money to various organ donations events managed by the organisation- MyDonor organisation.
-                <br><br>
-
-                The Safaricom Foundation makes large scale grants to MyDonor foundation in full support of the activity.
-            </div>
-            <div class="safaricom-1">
-        
-            </div>
-        </div>
-        
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+    </div>
 </body>
-
+                    
 </html>

@@ -1,67 +1,37 @@
- /* ford */
-.flex-container{
-    display: flex;
-    margin: 40px;
-    height: 50vh;   
-};
-.ford-1{
-    float: left;
-    margin: 40px;
-    background-image: url("images/ford.png");
-};
-.ford{
-    float: right;
-    margin: 40px;
-};
+ body{
+     background-color: aquamarine;
+ }
+ h3{
+     color:firebrick;
+ }
+ h1{
+     text-align: center;
+     color: firebrick;
+     padding-top: 1em;
+     padding-bottom: 1em;
+ }
+ .other{
+        padding-bottom: 1em;
+        margin-left: 30%;
+
+ }
 
 
-/* coca-cola */
+ 
+#individual {
+    width: 90px;
 
-.flex-container-1{
-    display: flex;
-    margin: 40px;
-    height: 50vh;
-};
-.cocacola-1{
-    float:left;
-    margin: 40px;
-    background-image: url("images/CocaCola_900.jpg");
-};
-.cocacola{
-    float: right;
-    margin: 40px;
-};
+}
+#company {
+    width: 90px;
+}
+#hospital {
+    width: 90px;
+}
+#form-group{
+    padding-left: 40px;
+}
 
-/* guiness */
-.flex-container-2{
-    display: flex;
-    margin: 40px;
-    height: 50vh;
-};
-.guiness{
-    float: right;
-    margin: 40px;           
-};
-.guiness-1{
-    float: left;
-    margin: 40px;
-    background-image: url("images/guiness.png");
-};
-
-/* safaricom */
-.flex-container-3{
-    display: flex;
-    margin: 40px;
-    height: 50vh;
-};
-.safaricom{
-    float: right;
-    margin: 40px;  
-};
-.safaricom-1{
-    float: left;
-    margin: 40px;
-    background-image: url("images/safaricom.png");
-};
-
-
+#btn-submit {
+    margin-top: 10px;
+}
