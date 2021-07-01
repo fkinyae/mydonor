@@ -36,6 +36,13 @@ body {
     font-size: 15px;
 
 }
+
+#send_msg {
+    margin-left: 15%;
+}
+#send_msg h4 {
+    margin-left: -35%;
+}
  .modal-header, .close {
     background-color: aqua;
     color: firebrick !important;
@@ -49,5 +56,12 @@ button#btn-submit {
     margin-top: 2%;
     margin-left: 25%;
     margin-bottom: 5%;
+
+}
+button#btn-msg {
+    background-color: firebrick;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 15%;
 
 }
