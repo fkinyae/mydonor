@@ -108,7 +108,7 @@
     <div class="unsuccesful healthy">
       <div class="container">
         <h2 class="dn-form"><strong>Donation Form</strong></h2>
-        <form action="" class="donors">
+        <form action="" class="donors" id= "myforms">
           <div class="row">
             <div class=" form-group col-md-4">
               <label for="formGroupExampleInput">First Name:</label>
@@ -117,7 +117,7 @@
             <div class=" form-group col-md-4">
               <label for="formGroupExampleInput">Last Name:</label>
               <input type="text" class="form-control" id="lname" placeholder="First Name">
-              <small id="emailHelp" class="form-text text-muted">Remember to type in capital letters.</small>
+              <small id="emailHelp" class="form-text text-muted">Remember to type in capitalized.</small>
             </div>
           </div>
           <div class="row">
@@ -151,7 +151,7 @@
             </select>  
             </div>
           </div>
-          <div class="row">
+          <div class="row bloodtype">
             <div class="form-group col-md-4">
               <label for="exampleFormControlSelect1">Blood Type</label>
               <select class="form-control" id="blood-type">
@@ -165,12 +165,40 @@
             <div class=" form-group col-md-4">
               
             </div>
-            <div class="row">
+            <div class="row donatebutton" >
               <button  id="donateform" type="button" class="btn btn-light col-md-3">Donate</button>
             </div>
           </div>
         </form>
       </div>
+      <div class="row donor_summary">
+        <h3 class="dn-form" >Donor's Summary</h3>
+        <div class="table-responsive">          
+          <table class="table">
+            <thead>
+              <tr>
+                <th>DonorId</th>
+                <th>FirstName</th>
+                <th>lastName</th>
+                <th>Email</th>
+                <th>Blood-Type</th>
+                <th>Donation</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="donorId"></td>
+                <td id="FName"></td>
+                <td id="LName"></td>
+                <td id="email"></td>
+                <td id="bloods-type"></td>
+                <td id="donations-type"></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        
 
 
       
