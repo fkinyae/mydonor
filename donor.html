@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/donor.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/donor.js"></script>
+    <title> Donor page</title>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+</head>
+<body>
+    <div class="">
+      <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1"> | DOING NOTHING IS NOT AN OPTION IN LIFE |</h1>
+            <br>
+            <br>
+            <h3 class="mb-5"><em>| Donate Blood | <br> <br> | Donate an Organ | <br> <br> Save A Life Today !</em></h3>
+        </div>
+    </header>
+
+        <div class="container-fluid">
+            <div class="row round">
+              <h3 class=" d-head text-center "> <strong>Donate Now</strong>  </h3>
+              <h3 class=" d-head text-center "><strong> What is your health status?</strong> </h3>
+                <div class="col-md-4 gy-2 round1">
+                    <label><input type="radio" name="colorCheckbox" value="pre-exixsting" > Pre-existing Condition</label>
+                </div>
+                <div class="col-md-4 gy-2 round1">
+                    <label><input type="radio" name="colorCheckbox" value="on-medication" > Currently on medication</label>
+                </div>
+                <div class="col-md-4 gy-2 round1">
+                    <label><input type="radio" name="colorCheckbox" value="healthy" > None of the Above</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Show only for patients with pre-existing conditions -->
+    <div id=" preexisting" class="unsuccesful pre-exixsting">
+      <div class="container">
+        <div class="pre text-center">
+          <h3 class="text-red h3"> Sorry You Cannot Donate with a <Strong>pre-existing condition </Strong> </h3>
+          <p class="h4">
+              There are certain conditions that prevent a person from donating blood temporarily or permanently. <br> Among the temporary conditions are:  <br>                          
+           </p>
+           <p class="h4">
+              Pregnancy <br>                       
+              Acute fever <br>
+              Recent alcoholic intake <br>
+              Ear or body piercing and tattooing <br>
+              Surgery <br>
+              Persons with the following  conditions are not allowed to donate blood anyime: <br>
+           </p>
+            <p class="h4">
+              Cancer   <br>                    
+              Cardiac disease  <br>                     
+              Sever lung disease     <br>                   
+              Hepatitis B and C       <br>                 
+              HIV infection, AIDS or Sexually Transmitted Diseases (STD)<br> 
+              High risk occupation (e.g. prostitution) <br> 
+              Unexplained weight loss of more than 5 kg over 6 months<br> 
+              Chronic alcoholism <br>                       
+          </p>
+
+            </p>
+            
+
+        </div>
+      </div>
+          
+    </div>
+    <!-- Show only for patients on-medication conditions -->
+
+    <div class="unsuccesful on-medication">
+      <div class="container">
+        <div class="pre text-center">
+          <h3 class="text-red h3"> Sorry You Cannot Donate while <Strong>on Medication </Strong></h3>
+          <p class="h4">
+              There are certain conditions that prevent a person from donating blood temporarily or permanently. <br> Among the temporary conditions are:  <br>                          
+           </p>
+           <p class="h4">
+              Pregnancy <br>                       
+              Acute fever <br>
+              Recent alcoholic intake <br>
+              Ear or body piercing and tattooing <br>
+              Surgery <br>
+           </p>
+            <p class="h4">
+              General opinion is that, in most cases, plasma concentrations of drugs in donated blood are not sufficiently <br>
+               high to cause harm to recipients. Normally of greater concern is any underlying illness in patients and, of course, <br>
+                medicines are a useful indication of this. Illness can make giving blood a risk to the donor as well as posing <br>
+                 a risk for recipients.                      
+          </p>                     
+          </p>
+
+            </p>
+            
+
+        </div>
+      </div>
+          
+    </div> 
+   <!-- Show only for patients who can donate conditions -->
+
+    <div class="unsuccesful healthy">
+      <div class="container">
+        <h2 class="dn-form"><strong>Donation Form</strong></h2>
+        <form action="" class="donors" id= "myforms">
+          <div class="row">
+            <div class=" form-group col-md-4">
+              <label for="formGroupExampleInput">First Name:</label>
+              <input type="text" class="form-control" id="fname" placeholder="First Name">
+            </div>
+            <div class=" form-group col-md-4">
+              <label for="formGroupExampleInput">Last Name:</label>
+              <input type="text" class="form-control" id="lname" placeholder="First Name">
+              <small id="emailHelp" class="form-text text-muted">Remember to type in capitalized.</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" name = "email" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="exampleFormControlSelect1 ">Age:</label>
+              <input type="number" name="age" value="1" id="age">
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="exampleFormControlSelect1">Gender</label>
+              <select class="form-control" id="gender" >
+                <option >Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+
+            </div>
+            <div class=" form-group col-md-4">
+              <label for="exampleFormControlSelect1">Donation</label>
+              <select class="form-control" id="donation-type">
+                <option >Select Type of Donation</option>
+                <option value="blood">Blood</option>
+                <option value="organ">Organ</option>
+            </select>  
+            </div>
+          </div>
+          <div class="row bloodtype">
+            <div class="form-group col-md-4">
+              <label for="exampleFormControlSelect1">Blood Type</label>
+              <select class="form-control" id="blood-type">
+                <option >Select Blood type</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O">O</option>
+              </select>
+            </div>
+            <div class=" form-group col-md-4">
+              
+            </div>
+            <div class="row donatebutton" >
+              <button  id="donateform" type="button" class="btn btn-light col-md-3">Donate</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row donor_summary">
+        <h3 class="dn-form" >Donor's Summary</h3>
+        <div class="table-responsive">          
+          <table class="table">
+            <thead>
+              <tr>
+                <th>DonorId</th>
+                <th>FirstName</th>
+                <th>lastName</th>
+                <th>Email</th>
+                <th>Blood-Type</th>
+                <th>Donation</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="donorId"></td>
+                <td id="FName"></td>
+                <td id="LName"></td>
+                <td id="email"></td>
+                <td id="bloods-type"></td>
+                <td id="donations-type"></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        
+
+
+      
+    </div> 
+    
+</body>
+</html>
