@@ -38,6 +38,12 @@ A data entry form is provided on the partnership,recipient and donor pages.
 * css
 * JavaScript
 * Jquery
+### List of contributors
+* Francis Kinyae
+* Vincent Mwangi
+* Synthia Kageni
+* Ryan Njeru
+* Daniel Wanjohi
 ## Support and contact details
 mydonor@gmail.com
 ### License
