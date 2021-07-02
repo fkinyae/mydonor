@@ -92,3 +92,18 @@ body, html {
     width: 100px;
     margin-left: 40%;
   }
+  .donatebutton{
+      margin: 3%;
+      text-align: justify;
+      margin-left: 25%;
+      color: firebrick;
+
+  }
+  .bloodtype .table{
+    margin-top: 4%;
+  }
+  .donor_summary{
+    font-family: 'Benne', serif;
+    color: firebrick;
+
+  }
