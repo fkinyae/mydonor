@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+body{
+    background-color: aqua;
+    color: firebrick;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-family: 'Benne', serif;
+}
+p{
+    text-align: center;
+    color:black;
+    font-family: 'Benne', serif;
+}
+/* p{
+    text-align: center;
+    color: black;
+    font-family: 'Benne', serif;
+} */
+ /* .people{
+    text-align: center;
+    color: rgb(212, 9, 9);
+    font-family: 'Benne', serif;
+}  */
+h2{
+    color: red;
+    text-align: center;
+    font-family: 'Benne', serif;
+}    
+h3{
+    color: red;
+    text-align: center;
+    font-family: 'Benne', serif;
+}
+.about-section{
+    color: firebrick;
+}
+.about{
+    margin-top: 0.1%;
+}
+.challenge{
+    color: black;
+}
+li{
+    font-family: 'Benne', serif;
+}
